@@ -4,6 +4,6 @@
         <UniquePrefix>ai-log</UniquePrefix>
         <BaseFolder>AppInsights</BaseFolder>
     </SDKLogger>
-    <InstrumentationKey>b189ce72-f45d-43b3-95a9-2f35cdde784e</InstrumentationKey>
+    <InstrumentationKey>1dcd1cc8-615b-4193-99cb-02e9a71d9d10</InstrumentationKey>
 </ApplicationInsights>
 
