@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="com.microsoft.tfs.demo.ImageServiceTest" time="27.062" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="com.microsoft.tfs.demo.ImageServiceTest" time="22.193" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
@@ -65,14 +65,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesJupiter" time="27.031"/>
-  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="getGetByNameNonExistent" time="0.016"/>
+  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesJupiter" time="22.182"/>
+  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="getGetByNameNonExistent" time="0"/>
   <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="getGetByNameSaturn" time="0"/>
   <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="getGetByNameEarth" time="0"/>
-  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="getGetByNameSun" time="0"/>
-  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesSun" time="0"/>
-  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesEarth" time="0"/>
-  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImages" time="0.015"/>
-  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesSaturn" time="0"/>
+  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="getGetByNameSun" time="0.001"/>
+  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesSun" time="0.003"/>
+  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesEarth" time="0.001"/>
+  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImages" time="0.003"/>
+  <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="testGetImagesSaturn" time="0.003"/>
   <testcase classname="com.microsoft.tfs.demo.ImageServiceTest" name="getGetByNameJupiter" time="0"/>
 </testsuite>

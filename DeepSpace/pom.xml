@@ -7,7 +7,6 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Deep Space Bootcamp Sample App</name>
-  <url>http://java.visualstudio.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -136,7 +135,7 @@
         <version>${maven.jetty.version}</version>
         <configuration>
           <scanIntervalSeconds>5</scanIntervalSeconds>
-          <contextPath>/deepspace</contextPath>
+          <contextPath>/</contextPath>
           <connectors>
             <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
               <port>3030</port>
